@@ -11,6 +11,13 @@
   margin: 0 15%;
   height: 100%;
 }
+.fix{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
 .nav{
   height: 60px;
   line-height: 60px;
@@ -86,6 +93,7 @@
   width: 100%;
   height: 85vh;
   border-bottom: 4px solid darkgreen;
+  margin-top: 120px;
 }
 .text-width-50{
   width: 50%;
@@ -130,7 +138,6 @@
 }
 .freehub-section{
   width: 100%;
-  height: 100px;
   background-color: white;
   border-radius: 10px;
   box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
@@ -150,7 +157,20 @@
 .right{
   width: 65%;
 }
-.img-academy{
-  width: 50px;
-  height:50px;
+.img-container-book{
+  padding-left: 120px;
+  padding-top: 50px;
+  margin-bottom: 120px;
+}
+.img-book{
+  width: 180px;
+  height: 180px;
+  padding-bottom: 10px;
+}
+.jumbotron-button{
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 15px 40px;
 }
