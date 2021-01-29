@@ -327,6 +327,61 @@ ul {
 
 }
 .clearfix-1:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
+}
+.text-main-3{
+  width: 45%;
+}
+.text1-main-3{
+  width: 40%;
+  margin-left: 20%;
+  margin-right: 40%;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+.h1-text1{
+  font-size: 50px;
+  padding-bottom: 25px;
+}
+.h1-text2{
+  font-size: 35px;
+  padding-bottom: 50px;
+}
+.p-text2{
+  padding-bottom: 20px;
+  display: block;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+.main3-button{
+  line-height: 30px;
+  padding: 15px 40px 15px 40px;
+  margin-bottom: 60px;
+  border-radius: 4px;
+}
+.span-text2{
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+.img-main-3{
+  width: 55%;
+}
+.img-1{
+
+}
+.img-size{
+  height: 50px;
+  width:21%;
+  object-fit: contain;
+  margin-top: 25px;
+  margin-right: 15px;
+}
+.background-woman{
+  background-image: url(../img/woman.webp);
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 45vh;
+}
