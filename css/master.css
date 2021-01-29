@@ -219,7 +219,9 @@ ul {
   margin-right: 0px;
 }
 .img-container-hub{
-  padding-left: 105px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-top: 25px;
 }
 .img-hub{
@@ -384,4 +386,35 @@ ul {
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 45vh;
+  margin-bottom: 50px;
+}
+.footer{
+  background-color: rgb(50, 75, 98);
+  color: white;
+}
+.li-title{
+  font-weight: bold;
+  padding: 35px 0;
+  font-size: 16px;
+}
+.li-text{
+  padding: 8px 0;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(213, 221, 233);
+}
+.unorder{
+  width: 24%;
+  display: inline-block;
+}
+.footer-button{
+  height: 35px;
+  line-height: 35px;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 15px 30px;
+}
+.button-grey{
+  background-color: rgb(213, 221, 233);
+  color: rgb(50, 75, 98);
 }
