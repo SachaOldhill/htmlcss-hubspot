@@ -4,6 +4,9 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+ul {
+    list-style-type: none;
+}
 .body{
   font-family: 'Roboto', sans-serif;
 }
@@ -122,6 +125,7 @@
 .main-1{
   background-color: lightblue;
   padding-top: 55px;
+  padding-bottom: 60px;
 }
 .cube-section{
   text-align: center;
@@ -142,6 +146,9 @@
   background-color: white;
   border-radius: 10px;
   box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
+}
+.clearfix{
+  margin-top: 50px;
 }
 .clearfix:after {
   content: "";
@@ -206,6 +213,10 @@
   margin-top: 30px;
   border-radius: 10px;
   box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
+  margin-right: 5%;
+}
+.hub:last-child{
+  margin-right: 0px;
 }
 .img-container-hub{
   padding-left: 105px;
@@ -218,6 +229,7 @@
 .text-hubs{
   margin-top: 15px;
   text-align: center;
+  padding-bottom: 40px;
 }
 .hubs-h3{
   font-size: 23px;
@@ -240,7 +252,11 @@
   padding-top: 10px;
 }
 .ul-hubs{
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  width: 40%;
+  text-align: left;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 .hubs-button{
   height: 35px;
@@ -249,4 +265,7 @@
   font-size: 20px;
   padding: 15px 40px;
   margin-bottom: 20px;
+}
+.main-2{
+
 }
