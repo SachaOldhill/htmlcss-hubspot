@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-weight: bold;
 }
 ul {
     list-style-type: none;
@@ -33,7 +34,7 @@ ul {
   border-right: 1px solid grey
 }
 .background-lightgrey{
-  background-color: lightblue;
+  background-color: rgb(177, 234, 230);
   border-bottom: 3px solid grey;
 }
 .contact-us{
@@ -62,6 +63,7 @@ ul {
   color: white;
   padding-left: 5px;
   padding-right: 5px;
+  border-radius: 4px;
 }
 .logo-svg{
   height: 30px;
@@ -92,12 +94,17 @@ ul {
 .jumbotron{
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-position: left;
   background-size: cover;
   width: 100%;
-  height: 85vh;
-  border-bottom: 4px solid darkgreen;
-  margin-top: 120px;
+  height: 86vh;
+  margin-top: 110px;
+}
+.separa{
+  height: 10vh;
+  width: 100%;
+  background-color: rgb(177, 234, 230);
+  border-bottom: 4px solid rgb(0, 97, 96);
+  border-top: 4px solid rgb(0, 97, 96);
 }
 .text-width-50{
   width: 50%;
@@ -114,7 +121,6 @@ ul {
 .jumbotron-button{
   height: 40px;
   line-height: 40px;
-  border-radius: 4px;
   font-size: 25px;
   padding: 15px 20px;
 }
@@ -405,16 +411,50 @@ ul {
 }
 .unorder{
   width: 24%;
-  display: inline-block;
+}
+.li-text:last-child{
+  padding-bottom: 15px;
 }
 .footer-button{
   height: 35px;
   line-height: 35px;
   border-radius: 4px;
   font-size: 14px;
-  padding: 15px 30px;
+  padding: 11px 15px;
+  margin-left: 995px;
 }
 .button-grey{
   background-color: rgb(213, 221, 233);
   color: rgb(50, 75, 98);
+}
+.entity{
+  margin-left: 995px;
+  padding-top: 30px;
+}
+.entity-space{
+  font-size: 18px;
+  margin-right: 22px;
+  color: rgb(213, 221, 233);
+}
+.entity-space:last-child{
+  margin-right: 0;
+}
+.last-button{
+  margin-top: 20px;
+}
+.language{
+  text-align: center;
+  margin-top: 60px;
+  font-weight: bold;
+  border-bottom: 2px solid rgb(213, 221, 233);
+  padding-bottom: 20px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 18%;
+  margin-bottom: 25px;
+}
+.logo-gray{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
